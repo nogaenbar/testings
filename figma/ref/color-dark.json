@@ -1,20 +1,6 @@
 {
   "ref": {
     "color": {
-      "fg": {
-        "default": {
-          "value": "{colors.neutral.90}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{colors.neutral.60}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{colors.neutral.50}",
-          "type": "color"
-        }
-      },
       "bg": {
         "default": {
           "value": "{colors.neutral.0}",
@@ -26,6 +12,20 @@
         },
         "subtle": {
           "value": "{colors.neutral.20}",
+          "type": "color"
+        }
+      },
+      "fg": {
+        "default": {
+          "value": "{colors.neutral.90}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{colors.neutral.60}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{colors.neutral.50}",
           "type": "color"
         }
       },
@@ -72,9 +72,9 @@
           "description": "background color for disabled elements"
         },
         "onDisable": {
-          "value": "{xx.global.color.neutral.700}",
-          "description": "color for elements that are palced on disabled background color",
-          "type": "color"
+          "value": "{ref.color.fg.muted}",
+          "type": "color",
+          "description": "color for elements that are palced on disabled background color"
         },
         "hover": {
           "$extensions": {
@@ -90,85 +90,95 @@
           "type": "color",
           "description": "Background color for state overlay of a hovered element"
         },
-        "focus": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.16",
-                "space": "srgb"
-              }
-            }
-          },
-          "value": "{xx.global.color.neutral.100}",
-          "description": "Background color for state overlay of a focused element",
-          "type": "color"
-        },
-        "press": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.08",
-                "space": "srgb"
-              }
-            }
-          },
-          "value": "{xx.global.color.neutral.100}",
-          "description": "Background color for state overlay of a pressed element",
-          "type": "color"
-        },
         "select": {
-          "value": "{xx.global.color.mint.100}",
-          "description": "background color for selected elements",
-          "type": "color"
+          "value": "{colors.blue.60}",
+          "type": "color",
+          "description": "background color for selected elements"
         },
         "onSelect": {
-          "value": "{xx.global.color.mint.600}",
-          "description": "Foreground color for selected elements",
-          "type": "color"
+          "value": "{colors.blue.20}",
+          "type": "color",
+          "description": "Foreground color for selected elements"
         },
-        "selectInverted": {
-          "value": "{xx.global.color.mint.600}",
-          "description": "Inverted background color for selected elements",
-          "type": "color"
-        },
-        "onSelectInverted": {
-          "value": "{xx.global.color.mint.100}",
-          "description": "inverted color for elements on selected backgrounds",
-          "type": "color"
+        "hoverSelect": {
+          "value": "{ref.color.state.select}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.72",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "Foreground color for selected elements"
         }
       },
       "purpose": {
-        "info": {
-          "value": "{xx.global.color.violet.400}",
-          "description": "color for elements with informational purpose of high emphasis",
-          "type": "color"
+        "default": {
+          "info": {
+            "value": "{colors.blue.20}",
+            "type": "color",
+            "description": "color for elements with informational purpose of high emphasis"
+          },
+          "onInfo": {
+            "value": "{colors.blue.80}",
+            "type": "color",
+            "description": "color for elements placed on informational purpose background"
+          },
+          "success": {
+            "value": "{colors.green.20}",
+            "type": "color",
+            "description": "color for elements with success purpose of high emphasis"
+          },
+          "onSuccess": {
+            "value": "{colors.green.90}",
+            "type": "color",
+            "description": "color for elements placed on success purpose background"
+          },
+          "warning": {
+            "value": "{colors.red.20}",
+            "type": "color",
+            "description": "color for elements with warning purpose of high emphasis"
+          },
+          "onWarning": {
+            "value": "{colors.red.80}",
+            "type": "color",
+            "description": "color for elements placed on warning purpose background"
+          }
         },
-        "onInfo": {
-          "value": "{xx.global.color.violet.800}",
-          "description": "color for elements placed on informational purpose background",
-          "type": "color"
-        },
-        "success": {
-          "value": "{xx.global.color.green.400}",
-          "description": "color for elements with success purpose of high emphasis",
-          "type": "color"
-        },
-        "onSuccess": {
-          "value": "{xx.global.color.green.800}",
-          "description": "color for elements placed on success purpose background",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{xx.global.color.gold.200}",
-          "description": "color for elements with warning purpose of high emphasis",
-          "type": "color"
-        },
-        "onWarning": {
-          "value": "{xx.global.color.gold.800}",
-          "description": "color for elements placed on warning purpose background",
-          "type": "color"
+        "inverted": {
+          "info": {
+            "value": "{colors.blue.60}",
+            "type": "color",
+            "description": "color for elements with informational purpose of high emphasis"
+          },
+          "onInfo": {
+            "value": "{colors.blue.10}",
+            "type": "color",
+            "description": "color for elements placed on informational purpose background"
+          },
+          "success": {
+            "value": "{colors.green.90}",
+            "type": "color",
+            "description": "color for elements with success purpose of high emphasis"
+          },
+          "onSuccess": {
+            "value": "{colors.green.20}",
+            "type": "color",
+            "description": "color for elements placed on success purpose background"
+          },
+          "warning": {
+            "value": "{colors.red.10}",
+            "type": "color",
+            "description": "color for elements with warning purpose of high emphasis"
+          },
+          "onWarning": {
+            "value": "{colors.red.60}",
+            "type": "color",
+            "description": "color for elements placed on warning purpose background"
+          }
         }
       },
       "border": {
