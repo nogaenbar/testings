@@ -7,8 +7,7 @@
       "core/color": "source",
       "core/dimension": "source",
       "ref/color-dark": "source",
-      "components/button": "enabled",
-      "ref/color-light": "disabled"
+      "components/button": "enabled"
     },
     "group": "mode"
   },
@@ -20,8 +19,7 @@
       "core/color": "source",
       "core/dimension": "source",
       "ref/color-dark": "source",
-      "components/button": "enabled",
-      "ref/color-light": "disabled"
+      "components/button": "enabled"
     },
     "group": "mode"
   }

@@ -119,17 +119,17 @@
       "purpose": {
         "default": {
           "info": {
-            "value": "{colors.blue.20}",
+            "value": "{colors.blue.80}",
             "type": "color",
             "description": "background color for elements with informational purpose "
           },
           "onInfo": {
-            "value": "{colors.blue.80}",
+            "value": "{colors.blue.40}",
             "type": "color",
             "description": "foreground color for elements placed on informational purpose background"
           },
           "success": {
-            "value": "{colors.green.20}",
+            "value": "{colors.green.30}",
             "type": "color",
             "description": "background color for elements with success purpose "
           },
@@ -139,24 +139,24 @@
             "description": "foreground color for elements placed on success purpose background"
           },
           "warning": {
-            "value": "{colors.red.20}",
+            "value": "{colors.red.30}",
             "type": "color",
             "description": "background color for elements with warning purpose"
           },
           "onWarning": {
-            "value": "{colors.red.80}",
+            "value": "{colors.red.90}",
             "type": "color",
             "description": "foreground color for elements placed on warning purpose background"
           }
         },
         "inverted": {
           "info": {
-            "value": "{colors.blue.60}",
+            "value": "{colors.blue.30}",
             "type": "color",
             "description": "background color for elements with informational purpose"
           },
           "onInfo": {
-            "value": "{colors.blue.10}",
+            "value": "{colors.blue.80}",
             "type": "color",
             "description": "foreground color for elements placed on informational purpose background"
           },
@@ -171,24 +171,28 @@
             "description": "foreground color for elements placed on success purpose background"
           },
           "warning": {
-            "value": "{colors.red.10}",
+            "value": "{colors.red.90}",
             "type": "color",
             "description": "background color for elements with warning purpose"
           },
           "onWarning": {
-            "value": "{colors.red.60}",
+            "value": "{colors.red.20}",
             "type": "color",
             "description": "foreground color for elements placed on warning purpose background"
           }
         }
       },
       "border": {
+        "transparent": {
+          "value": "{colors.transparent}",
+          "type": "color"
+        },
         "default": {
-          "value": "{colors.neutral.50}",
+          "value": "{colors.neutral.20}",
           "type": "color"
         },
         "subtle": {
-          "value": "{colors.neutral.30}",
+          "value": "{colors.neutral.60}",
           "type": "color"
         },
         "focused": {
@@ -196,11 +200,11 @@
           "type": "color"
         },
         "active": {
-          "value": "{colors.blue.40}",
+          "value": "{colors.blue.50}",
           "type": "color"
         },
         "error": {
-          "value": "{colors.red.60}",
+          "value": "{ref.color.purpose.inverted.onWarning}",
           "type": "color"
         }
       }
