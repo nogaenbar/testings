@@ -1,0 +1,131 @@
+{
+  "button": {
+    "primary": {
+      "bg": {
+        "value": "{accent.default}",
+        "type": "color"
+      },
+      "bg-hover": {
+        "value": "{button.primary.bg}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.36",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "fg": {
+        "value": "{accent.onAccent}",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "value": "{borderRadius.lg}",
+      "type": "borderRadius"
+    },
+    "borderWidth": {
+      "value": "{dimension.sm}",
+      "type": "borderWidth"
+    },
+    "secondary": {
+      "bg": {
+        "value": "{accent.default}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{accent.onAccent}",
+        "type": "color"
+      }
+    },
+    "tertiary": {
+      "bg": {
+        "value": "{accent.default}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{accent.onAccent}",
+        "type": "color"
+      }
+    }
+  },
+  "card": {
+    "borderRadius": {
+      "value": "{borderRadius.lg}",
+      "type": "borderRadius"
+    },
+    "padding": {
+      "value": "{dimension.md}",
+      "type": "dimension"
+    }
+  },
+  "checkbox": {
+    "background": {
+      "value": "{bg.default}",
+      "type": "color"
+    }
+  },
+  "typography": {
+    "H1": {
+      "Bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.headingBold}",
+          "lineHeight": "{lineHeights.heading}",
+          "fontSize": "{fontSizes.h1}",
+          "paragraphSpacing": "{paragraphSpacing.h1}",
+          "letterSpacing": "{letterSpacing.decreased}"
+        }
+      },
+      "Regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.headingRegular}",
+          "lineHeight": "{lineHeights.heading}",
+          "fontSize": "{fontSizes.h1}",
+          "paragraphSpacing": "{paragraphSpacing.h1}",
+          "letterSpacing": "{letterSpacing.decreased}"
+        }
+      }
+    },
+    "H2": {
+      "Bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.headingBold}",
+          "lineHeight": "{lineHeights.heading}",
+          "fontSize": "{fontSizes.h2}",
+          "paragraphSpacing": "{paragraphSpacing.h2}",
+          "letterSpacing": "{letterSpacing.decreased}"
+        }
+      },
+      "Regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamilies.heading}",
+          "fontWeight": "{fontWeights.headingRegular}",
+          "lineHeight": "{lineHeights.heading}",
+          "fontSize": "{fontSizes.h2}",
+          "paragraphSpacing": "{paragraphSpacing.h2}",
+          "letterSpacing": "{letterSpacing.decreased}"
+        }
+      }
+    },
+    "Body": {
+      "type": "typography",
+      "value": {
+        "fontFamily": "{fontFamilies.body}",
+        "fontWeight": "{fontWeights.bodyRegular}",
+        "lineHeight": "{lineHeights.heading}",
+        "fontSize": "{fontSizes.body}",
+        "paragraphSpacing": "{paragraphSpacing.h2}"
+      }
+    }
+  }
+}

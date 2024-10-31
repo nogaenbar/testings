@@ -1,0 +1,79 @@
+{
+  "dimensions": {
+    "1": {
+      "value": "2px",
+      "description": "1st step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "2": {
+      "value": "4px",
+      "description": "2nd step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "3": {
+      "value": "8px",
+      "description": "3rd step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "4": {
+      "value": "12px",
+      "description": "4th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "5": {
+      "value": "16px",
+      "description": "5th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "6": {
+      "value": "20px",
+      "description": "6th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "7": {
+      "value": "24px",
+      "description": "7th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "8": {
+      "value": "32px",
+      "description": "8th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "9": {
+      "value": "44px",
+      "description": "9th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "10": {
+      "value": "48px",
+      "description": "10th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "11": {
+      "value": "52px",
+      "description": "11th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "12": {
+      "value": "60px",
+      "description": "12th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "13": {
+      "value": "64px",
+      "description": "13th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "14": {
+      "value": "72px",
+      "description": "14th step of global dimensions sequence",
+      "type": "dimension"
+    },
+    "15": {
+      "value": "80px",
+      "description": "15th step of global dimensions sequence",
+      "type": "dimension"
+    }
+  }
+}
