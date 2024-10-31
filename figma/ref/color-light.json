@@ -77,7 +77,7 @@
               }
             }
           },
-          "value": "{ref.color.selectable.primary.interaction}",
+          "value": "{ref.color.selectable.primary}",
           "type": "color",
           "description": "Background color for state overlay of a hovered element"
         },
@@ -92,7 +92,7 @@
           "description": "Foreground color for selected elements"
         },
         "hoverSelect": {
-          "value": "{ref.color.selectable.primary.state.select}",
+          "value": "{ref.color.selectable.state.select}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
