@@ -68,7 +68,7 @@
     "interactive": {
       "transparent": {
         "value": {
-          "color": "{colors.transparent}",
+          "color": "{ref.color.border.transparent}",
           "width": "{border-width.base.s}",
           "style": "solid"
         },
@@ -76,7 +76,7 @@
       },
       "default": {
         "value": {
-          "color": "{colors.neutral.50}",
+          "color": "{ref.color.border.default}",
           "width": "{border-width.base.s}",
           "style": "solid"
         },
@@ -84,7 +84,7 @@
       },
       "disabled": {
         "value": {
-          "color": "{colors.neutral.30}",
+          "color": "{ref.color.border.subtle}",
           "width": "{border-width.base.s}",
           "style": "solid"
         },
@@ -92,7 +92,7 @@
       },
       "focused": {
         "value": {
-          "color": "{colors.blue.60}",
+          "color": "{ref.color.border.focused}",
           "width": "{border-width.base.m}",
           "style": "solid"
         },
@@ -100,7 +100,7 @@
       },
       "active": {
         "value": {
-          "color": "{colors.blue.40}",
+          "color": "{ref.color.border.active}",
           "width": "{border-width.base.s}",
           "style": "solid"
         },
@@ -108,7 +108,7 @@
       },
       "error": {
         "value": {
-          "color": "{colors.red.60}",
+          "color": "{ref.color.border.error}",
           "width": "{border-width.base.s}",
           "style": "solid"
         },
