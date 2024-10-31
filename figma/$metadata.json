@@ -2,8 +2,7 @@
   "tokenSetOrder": [
     "core/color",
     "core/dimension",
-    "core/dimensions (old)",
-    "core/typography",
+    "typography 2",
     "ref/color-dark",
     "ref/color-light",
     "ref/border",

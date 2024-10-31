@@ -5,9 +5,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core/color": "source",
-      "core/dimension": "source",
       "ref/color-dark": "source",
-      "components/button": "enabled"
+      "components/button": "enabled",
+      "typography 2": "disabled",
+      "core/dimension": "disabled"
     },
     "group": "mode"
   },
@@ -17,9 +18,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core/color": "source",
-      "core/dimension": "source",
       "ref/color-dark": "source",
-      "components/button": "enabled"
+      "components/button": "enabled",
+      "typography 2": "disabled",
+      "core/dimension": "disabled"
     },
     "group": "mode"
   }

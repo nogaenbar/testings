@@ -558,98 +558,98 @@
       "page": {
         "margin": {
           "none": {
-            "value": "{core.dimension.0}",
+            "value": "{dimension.0}",
             "description": "This is basically your page margin (in breakpoints-speak).",
             "type": "spacing"
           },
           "s": {
-            "value": "{core.dimension.100}",
+            "value": "{dimension.100}",
             "type": "spacing"
           },
           "m": {
-            "value": "{core.dimension.150}",
+            "value": "{dimension.150}",
             "type": "spacing"
           },
           "l": {
-            "value": "{core.dimension.200}",
+            "value": "{dimension.200}",
             "type": "spacing"
           },
           "xl": {
-            "value": "{core.dimension.300}",
+            "value": "{dimension.300}",
             "type": "spacing"
           }
         },
         "padding": {
           "none": {
-            "value": "{core.dimension.0}",
+            "value": "{dimension.0}",
             "description": "This is basically your page gutter (in breakpoints-speak).",
             "type": "spacing"
           },
           "xxs": {
-            "value": "{core.dimension.25}",
+            "value": "{dimension.25}",
             "type": "spacing"
           },
           "xs": {
-            "value": "{core.dimension.50}",
+            "value": "{dimension.50}",
             "type": "spacing"
           },
           "s": {
-            "value": "{core.dimension.100}",
+            "value": "{dimension.100}",
             "type": "spacing"
           },
           "m": {
-            "value": "{core.dimension.200}",
+            "value": "{dimension.200}",
             "type": "spacing"
           },
           "l": {
-            "value": "{core.dimension.400}",
+            "value": "{dimension.400}",
             "type": "spacing"
           },
           "xl": {
-            "value": "{core.dimension.800}",
+            "value": "{dimension.800}",
             "type": "spacing"
           },
           "2xl": {
-            "value": "{core.dimension.1600}",
+            "value": "{dimension.1600}",
             "type": "spacing"
           }
         }
       },
       "container": {
         "none": {
-          "value": "{core.dimension.0}",
+          "value": "{dimension.0}",
           "type": "spacing"
         },
         "xxs": {
-          "value": "{core.dimension.12}",
+          "value": "{dimension.12}",
           "type": "spacing"
         },
         "xs": {
-          "value": "{core.dimension.25}",
+          "value": "{dimension.25}",
           "type": "spacing"
         },
         "s": {
-          "value": "{core.dimension.50}",
+          "value": "{dimension.50}",
           "type": "spacing"
         },
         "m": {
-          "value": "{core.dimension.75}",
+          "value": "{dimension.75}",
           "type": "spacing"
         },
         "l": {
-          "value": "{core.dimension.100}",
+          "value": "{dimension.100}",
           "type": "spacing"
         },
         "xl": {
-          "value": "{core.dimension.125}",
+          "value": "{dimension.125}",
           "type": "spacing"
         },
         "2xl": {
-          "value": "{core.dimension.150}",
+          "value": "{dimension.150}",
           "type": "spacing"
         },
         "3xl": {
-          "value": "{core.dimension.200}",
+          "value": "{dimension.200}",
           "type": "spacing"
         },
         "auto": {
@@ -662,52 +662,52 @@
   "dimension": {
     "icon-button": {
       "small": {
-        "value": "{core.dimension.150}",
+        "value": "{dimension.150}",
         "type": "dimension"
       },
       "medium": {
-        "value": "{core.dimension.175}",
+        "value": "{dimension.175}",
         "type": "dimension"
       },
       "large": {
-        "value": "{core.dimension.225}",
+        "value": "{dimension.225}",
         "type": "dimension"
       }
     },
     "text-button": {
       "small": {
-        "value": "{core.dimension.150}",
+        "value": "{dimension.150}",
         "type": "dimension"
       },
       "medium": {
-        "value": "{core.dimension.175}",
+        "value": "{dimension.175}",
         "type": "dimension"
       },
       "large": {
-        "value": "{core.dimension.225}",
+        "value": "{dimension.225}",
         "type": "dimension"
       }
     },
     "icon": {
       "s": {
-        "value": "{core.dimension.125}",
+        "value": "{dimension.125}",
         "description": "Smallest icon size used in checkboxes, small icon-buttons, small progress-buttons, small split-buttons and small text-buttons.",
         "type": "dimension"
       },
       "m": {
-        "value": "{core.dimension.100}",
+        "value": "{dimension.100}",
         "description": "Medium icon size used in medium icon-buttons, medium progress-buttons, medium split-buttons and medium text-buttons.",
         "type": "dimension"
       },
       "l": {
-        "value": "{core.dimension.125}",
+        "value": "{dimension.125}",
         "description": "Largest icon size used in large icon-buttons, large progress-buttons, large split-buttons and large text-buttons.",
         "type": "dimension"
       }
     },
     "list-item": {
       "small": {
-        "value": "{core.dimension.200}",
+        "value": "{dimension.200}",
         "type": "dimension"
       }
     }
