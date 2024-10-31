@@ -76,7 +76,7 @@
                 "modify": {
                   "type": "lighten",
                   "value": "0.24",
-                  "space": "srgb"
+                  "space": "lch"
                 }
               }
             },
@@ -162,32 +162,32 @@
           "info": {
             "value": "{colors.blue.60}",
             "type": "color",
-            "description": "color for elements with informational purpose of high emphasis"
+            "description": "background color for elements with informational purpose"
           },
           "onInfo": {
             "value": "{colors.blue.10}",
             "type": "color",
-            "description": "color for elements placed on informational purpose background"
+            "description": "foreground color for elements placed on informational purpose background"
           },
           "success": {
             "value": "{colors.green.90}",
             "type": "color",
-            "description": "color for elements with success purpose of high emphasis"
+            "description": "background color for elements with success purpose"
           },
           "onSuccess": {
             "value": "{colors.green.20}",
             "type": "color",
-            "description": "color for elements placed on success purpose background"
+            "description": "foreground color for elements placed on success purpose background"
           },
           "warning": {
             "value": "{colors.red.10}",
             "type": "color",
-            "description": "color for elements with warning purpose of high emphasis"
+            "description": "background color for elements with warning purpose"
           },
           "onWarning": {
             "value": "{colors.red.60}",
             "type": "color",
-            "description": "color for elements placed on warning purpose background"
+            "description": "foreground color for elements placed on warning purpose background"
           }
         }
       },
