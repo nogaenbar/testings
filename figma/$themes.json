@@ -6,11 +6,7 @@
     "selectedTokenSets": {
       "core/color": "source",
       "components/button": "enabled",
-      "core/font": "disabled",
-      "ref/typography": "disabled",
-      "ref/spacing": "disabled",
-      "theme/color-dark": "source",
-      "theme/color-light": "disabled"
+      "theme/color-dark": "source"
     },
     "group": "mode"
   },
@@ -21,11 +17,7 @@
     "selectedTokenSets": {
       "core/color": "source",
       "components/button": "enabled",
-      "core/font": "disabled",
-      "ref/typography": "disabled",
-      "ref/spacing": "disabled",
-      "theme/color-dark": "source",
-      "theme/color-light": "disabled"
+      "theme/color-dark": "source"
     },
     "group": "mode"
   }
