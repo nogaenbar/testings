@@ -146,5 +146,49 @@
       "description": "base-scale of all size-related tokens (size, space, dimension). The default is 1rem = 16(px). If you change it, it will change all size-related tokens. :)",
       "type": "sizing"
     }
+  },
+  "font-family": {
+    "base": {
+      "title": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      },
+      "interface": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      }
+    }
+  },
+  "font-weight": {
+    "base": {
+      "default": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "strong": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "interface-default": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "interface-medium": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "interface-strong": {
+        "value": "700",
+        "type": "fontWeights"
+      }
+    }
   }
 }

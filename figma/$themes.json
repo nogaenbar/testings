@@ -5,10 +5,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core/color": "source",
-      "ref/color-dark": "source",
       "components/button": "enabled",
-      "typography 2": "disabled",
-      "core/dimension": "disabled"
+      "core/font": "disabled",
+      "ref/typography": "disabled",
+      "ref/spacing": "disabled",
+      "theme/color-dark": "source",
+      "theme/color-light": "disabled"
     },
     "group": "mode"
   },
@@ -18,10 +20,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core/color": "source",
-      "ref/color-dark": "source",
       "components/button": "enabled",
-      "typography 2": "disabled",
-      "core/dimension": "disabled"
+      "core/font": "disabled",
+      "ref/typography": "disabled",
+      "ref/spacing": "disabled",
+      "theme/color-dark": "source",
+      "theme/color-light": "disabled"
     },
     "group": "mode"
   }

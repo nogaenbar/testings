@@ -1,51 +1,44 @@
 {
   "border-radius": {
-    "base": {
-      "scale": {
-        "value": "1",
-        "description": "changing this will change the roundness of all border-radiuses simultaneously.",
+    "container": {
+      "none": {
+        "value": "{dimension.0}",
         "type": "borderRadius"
       },
-      "container": {
-        "none": {
-          "value": "{border-radius.base.scale} * {border-radius.0}",
-          "type": "borderRadius"
-        },
-        "xs": {
-          "value": "{border-radius.base.scale} * {border-radius.25}",
-          "type": "borderRadius"
-        },
-        "s": {
-          "value": "{border-radius.base.scale} * {border-radius.50}",
-          "type": "borderRadius"
-        },
-        "m": {
-          "value": "{border-radius.base.scale} * {border-radius.100}",
-          "type": "borderRadius"
-        },
-        "l": {
-          "value": "{border-radius.base.scale} * {border-radius.150}",
-          "type": "borderRadius"
-        },
-        "pill": {
-          "value": "{border-radius.base.scale} * {border-radius.pill}",
-          "type": "borderRadius"
-        }
+      "xs": {
+        "value": "{dimension.12}",
+        "type": "borderRadius"
+      },
+      "s": {
+        "value": "{dimension.25}",
+        "type": "borderRadius"
+      },
+      "m": {
+        "value": "{dimension.50}",
+        "type": "borderRadius"
+      },
+      "l": {
+        "value": "{dimension.100}",
+        "type": "borderRadius"
+      },
+      "pill": {
+        "value": "1000",
+        "type": "borderRadius"
       }
     }
   },
   "border-width": {
     "base": {
       "none": {
-        "value": "{border-width.0}",
+        "value": "{dimension.0}",
         "type": "borderWidth"
       },
       "s": {
-        "value": "{border-width.10}",
+        "value": "{dimension.6}",
         "type": "borderWidth"
       },
       "m": {
-        "value": "{border-width.20}",
+        "value": "{dimension.12}",
         "type": "borderWidth"
       }
     },

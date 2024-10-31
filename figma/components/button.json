@@ -52,20 +52,20 @@
       }
     }
   },
-  "card": {
+  "checkbox": {
     "borderRadius": {
       "value": "{borderRadius.lg}",
       "type": "borderRadius"
     },
-    "padding": {
-      "value": "{dimension.md}",
-      "type": "dimension"
-    }
-  },
-  "checkbox": {
     "background": {
       "value": "{bg.default}",
       "type": "color"
+    }
+  },
+  "card": {
+    "padding": {
+      "value": "{dimension.md}",
+      "type": "dimension"
     }
   },
   "typography": {
