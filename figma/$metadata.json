@@ -3,9 +3,9 @@
     "core/color",
     "core/dimension",
     "core/font",
-    "ref/border",
-    "ref/typography",
-    "ref/spacing",
+    "style/border",
+    "style/typography",
+    "style/spacing",
     "theme/color-dark",
     "theme/color-light",
     "components/button"
