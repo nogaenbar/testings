@@ -6,6 +6,7 @@
     "core/typography",
     "ref/border",
     "ref/color-dark",
+    "ref/color-light",
     "components/button",
     "collection/styles",
     "collection/colors/dark",
