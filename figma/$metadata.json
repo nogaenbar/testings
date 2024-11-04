@@ -8,6 +8,6 @@
     "style/spacing",
     "theme/color-dark",
     "theme/color-light",
-    "components/button"
+    "components/global"
   ]
 }

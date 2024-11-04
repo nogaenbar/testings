@@ -10,7 +10,8 @@
       "style/border": "enabled",
       "style/typography": "enabled",
       "style/spacing": "enabled",
-      "theme/color-light": "enabled"
+      "theme/color-light": "enabled",
+      "components/global": "disabled"
     },
     "group": "mode"
   },
@@ -25,7 +26,8 @@
       "core/font": "source",
       "style/border": "enabled",
       "style/typography": "enabled",
-      "style/spacing": "enabled"
+      "style/spacing": "enabled",
+      "components/global": "disabled"
     },
     "group": "mode"
   }
