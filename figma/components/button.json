@@ -2,24 +2,15 @@
   "button": {
     "primary": {
       "bg": {
-        "value": "{accent.default}",
+        "value": "#",
         "type": "color"
       },
       "bg-hover": {
-        "value": "{button.primary.bg}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "lighten",
-              "value": "0.36",
-              "space": "lch"
-            }
-          }
-        }
+        "value": "#",
+        "type": "color"
       },
       "fg": {
-        "value": "{accent.onAccent}",
+        "value": "#",
         "type": "color"
       }
     },
@@ -33,21 +24,21 @@
     },
     "secondary": {
       "bg": {
-        "value": "{accent.default}",
+        "value": "#",
         "type": "color"
       },
       "fg": {
-        "value": "{accent.onAccent}",
+        "value": "#",
         "type": "color"
       }
     },
     "tertiary": {
       "bg": {
-        "value": "{accent.default}",
+        "value": "#",
         "type": "color"
       },
       "fg": {
-        "value": "{accent.onAccent}",
+        "value": "#",
         "type": "color"
       }
     }
@@ -58,7 +49,7 @@
       "type": "borderRadius"
     },
     "background": {
-      "value": "{bg.default}",
+      "value": "#",
       "type": "color"
     }
   },
