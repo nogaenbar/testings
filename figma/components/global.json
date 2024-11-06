@@ -2,50 +2,68 @@
   "button": {
     "primary": {
       "bg": {
-        "value": "#",
+        "value": "{color.selectable.primary}",
         "type": "color"
       },
       "bg-hover": {
-        "value": "#",
+        "value": "{color.selectable.state.hoverPrimary}",
         "type": "color"
       },
       "fg": {
-        "value": "#",
+        "value": "{color.selectable.onPrimary}",
         "type": "color"
       }
     },
     "borderRadius": {
-      "value": "{borderRadius.lg}",
+      "value": "{border-radius.container.s}",
       "type": "borderRadius"
-    },
-    "borderWidth": {
-      "value": "{dimension.sm}",
-      "type": "borderWidth"
     },
     "secondary": {
       "bg": {
-        "value": "#",
+        "value": "{color.selectable.transparent}",
+        "type": "color"
+      },
+      "bg-hover": {
+        "value": "{color.selectable.state.hoverTransparent}",
         "type": "color"
       },
       "fg": {
-        "value": "#",
+        "value": "{color.selectable.onTransparent}",
         "type": "color"
       }
     },
     "tertiary": {
       "bg": {
-        "value": "#",
+        "value": "{color.selectable.transparent}",
+        "type": "color"
+      },
+      "bg-hover": {
+        "value": "{color.selectable.state.hoverTransparent}",
         "type": "color"
       },
       "fg": {
-        "value": "#",
+        "value": "{color.selectable.onTransparent}",
+        "type": "color"
+      }
+    },
+    "selected": {
+      "bg": {
+        "value": "{color.selectable.state.select}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{color.selectable.state.onSelect}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{color.selectable.state.hoverSelect}",
         "type": "color"
       }
     }
   },
   "checkbox": {
     "borderRadius": {
-      "value": "{borderRadius.lg}",
+      "value": "{border-radius.container.s}",
       "type": "borderRadius"
     },
     "background": {
