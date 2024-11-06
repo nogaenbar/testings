@@ -3,11 +3,11 @@
     "core/color",
     "core/dimension",
     "core/font",
-    "style/border",
-    "style/typography",
-    "style/spacing",
     "theme/color-dark",
     "theme/color-light",
+    "style/typography",
+    "style/spacing",
+    "style/border",
     "components/global"
   ]
 }

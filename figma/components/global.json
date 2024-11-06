@@ -46,10 +46,6 @@
         "type": "color"
       }
     },
-    "padding": {
-      "value": "{dimension.md}",
-      "type": "dimension"
-    },
     "selected": {
       "bg": {
         "value": "{color.selectable.state.select}",
@@ -61,6 +57,16 @@
       },
       "fg": {
         "value": "{color.selectable.state.onSelect}",
+        "type": "color"
+      }
+    },
+    "disable": {
+      "bg": {
+        "value": "{color.selectable.state.disable}",
+        "type": "color"
+      },
+      "fg": {
+        "value": "{color.selectable.state.onDisable}",
         "type": "color"
       }
     }
